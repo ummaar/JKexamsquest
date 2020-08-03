@@ -1,2 +1,2 @@
 # JKexamsquest
-Front end for jkexams quest.
+Front end for jkexamsquest, a website best for passing competitive exams.
