@@ -1,4 +1,4 @@
-/*Styling for header */
+/* Header sytling */
 .header {
   display: grid;
 
@@ -74,11 +74,37 @@ li {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fab:hover{
-    -ms-transform: scale(1.3); 
-  -webkit-transform: scale(1.3); 
-  transform: scale(1.3); 
+.fab:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
   transition: 1s;
-
-
 }
+@media only screen and (max-width: 735px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logoheader {
+    height: 110px;
+    width: 100%;
+    
+  }
+  .headerarea2 {
+    margin-top: 0;
+  }
+  .item1 {
+    margin-top: 0;
+    
+    margin-bottom: 0;
+    height: 60px;
+  }
+
+  .fab {
+    font-size: 40px;
+    margin-bottom: 2px;
+  }
+}
+
+/* Header end */
