@@ -5,7 +5,7 @@
 body{
   margin: 0;
 }
-nav{
+.navb{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -23,14 +23,14 @@ nav{
   letter-spacing: 5px;
 }
 
-.navlinks{
+.navl{
   display: flex;
   list-style: none;
   justify-content: space-around;
   width: 40%;
 }
 
-.navlinks a{
+.navl a{
   text-decoration: none;
   color: wheat;
   letter-spacing: 2px;
@@ -67,7 +67,7 @@ nav{
 }
 
 .dropdown-content a:hover {
-  background-color: #4d4b48
+  background-color: #4d4b48;
 }
 
 .dropdown:hover .dropdown-content {
@@ -123,7 +123,7 @@ a{
   grid-template-rows: auto auto;
   grid-template-areas: "item1" "item2";
 }
-li {
+ .header li {
   display: inline-block;
 }
 .item1 {
@@ -185,7 +185,7 @@ li {
 
 @media screen and (max-width: 1040px)
 {
-  .navlinks{
+  .navl{
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -198,7 +198,10 @@ li {
   body{
     overflow-x: hidden;
   }
-  .navlinks{
+  .navb{
+    overflow-x: hidden;
+  }
+  .navl{
     position: absolute;
     right: 0px;
     min-height: 52vh;
@@ -212,14 +215,14 @@ li {
     transition: transform 0.5s ease-in;
     }
 
-    .navlinks li {
+    .navl li {
       opacity: 0;
     }
     .burger{
       display: block;
       cursor: pointer;
     }
-    .nav-active{
+    .navb-active{
       transform: translateX(0%);
     }
     .dropdown:hover .dropdown-content {
@@ -275,6 +278,8 @@ li {
 }
 /*A*/
 
+/*A*/
+
 /* Header end */
 
 
@@ -285,11 +290,11 @@ li {
  display: flex;
  border-radius: 5px;
  flex-direction: column;
-background-color: #5e5757;
+ background-color: #5e5757;
  width: 25%;
  margin-left: 30px;
  flex-basis: content;
-color: wheat;
+ color: wheat;
 
 
 }
@@ -341,7 +346,7 @@ card{
 
 }
 
-@media only screen and (max-width: 735px) {
+@media only screen and (max-width: 768px) {
   card{
     display: flex;
     flex-direction: column;
@@ -352,4 +357,3 @@ card{
   }
 
 }
-

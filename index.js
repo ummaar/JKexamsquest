@@ -1,11 +1,11 @@
 const navSlide = () => {
     const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.navlinks');
-    const navLinks = document.querySelectorAll('.navlinks li');
+    const nav = document.querySelector('.navl');
+    const navLinks = document.querySelectorAll('.navl li');
    
     burger.addEventListener('click', ()=>{
          //Toggle Nav
-        nav.classList.toggle('nav-active');
+        nav.classList.toggle('navb-active');
 
         //Animate Links
         navLinks.forEach((link, index)=>{
