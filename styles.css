@@ -200,7 +200,7 @@ a{
   }
   .navb{
     overflow-x: hidden;
-  }
+    }
   .navl{
     position: absolute;
     right: 0px;
@@ -213,6 +213,9 @@ a{
     width: 100%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+    z-index: 10;
+ 
+  
     }
 
     .navl li {
@@ -285,75 +288,73 @@ a{
 
 /* card */
 
-
-.quizcard{
- display: flex;
- border-radius: 5px;
- flex-direction: column;
- background-color: #5e5757;
- width: 25%;
- margin-left: 30px;
- flex-basis: content;
- color: wheat;
-
-
-}
-.quizcardbody{
-  display: flex;
-  flex-direction: column;
- 
-  width: 100%;
-}
-.quizcardheader{
-  padding: 10px;
+section.quizcard {
+  background:azure;
+  background: linear-gradient(to right, azure, rgb(234, 240, 240));
   
-  text-align: center;
-  text-transform: uppercase;
-}
-.quizcardbody div{
- 
-  padding:10px;
-  border-bottom-width:100% ;
- 
- 
 }
 
-
-.quizcardbody{
-
-  background-color: rgba(236, 216, 241, 0.212);
-  padding: 10px;
-  height: auto;
-  text-align:justify-content;
-}
-.quizcardfooter{
- 
-  padding: 10px;
-  text-transform: uppercase;
-  text-align: center;
-}
-.quizcardfooter a{
-  color:wheat;
-}
-.quizcardbody .fa{
-  margin-right: 10px;
+.quizcard .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
-card{
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-
+.quizcard hr {
+  margin: 1.5rem 0;
 }
 
-@media only screen and (max-width: 768px) {
-  card{
-    display: flex;
-    flex-direction: column;
-   
+.quizcard .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.quizcard .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.quizcard .card-price .period {
+  font-size: 0.8rem;
+}
+
+.quizcard ul li {
+  margin-bottom: 1rem;
+}
+
+.quizcard .text-muted {
+  opacity: 0.7;
+}
+
+.quizcard .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .quizcard .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
-  .quizcard{ 
-    width: fit-content;
+  .quizcard .card:hover .btn {
+    opacity: 1;
   }
-
 }
+
+
+
+
+
+
