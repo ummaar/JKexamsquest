@@ -1,17 +1,70 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>JK Exams Quest</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"> 
-        <link rel="stylesheet" href="styles/styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    </head>
 
-    <body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>JK Exams Quest</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+     <body>
+
+      <nav class="navbar fixed-top" id = "navb">
+        <!--Navbar Starts here.-->
+      
+        <div>
+            <a href="#" target="_blank">
+                <h2 class="home">Home</h2>
+            </a>
+        </div>
+
+        <ul class="navl">
+            <li>
+                <div class="dropdown" >
+                    <button class="dropbtn" >Exams</button>
+                    <div class="dropdown-content" >
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        <a href="#">Link 4</a>
+                    </div>
+                </div>
+            </li>
+            </div>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Subjects</button>
+                    <div class="dropdown-content">
+                        <a href="#">Computer Science</a>
+                        <a href="#">GK</a>
+                        <a href="#">History</a>
+                        <a href="#">Maths</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#" target="_blank">About</a></li>
+            <li><a href="#" target="_blank">Link1</a></li>
+            <li><a href="#" target="_blank">Link2</a></li>
+        </ul>
+        <div>
+            <a href="#" target="_blank">
+                <h2 class="home">Login</h2>
+            </a>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+
+        </div>
+    </nav>
+    <!--Navbar ends here.-->
 
         <header> <!--Header Starts here.-->
             <div class="header">
@@ -34,138 +87,289 @@
                     </div>
                 </div>   
             </div>
-        </header><!--Header ends here.-->
+        </header><!--Header ends here.-->                    
 
-        <nav class = "navb"><!--Navbar Starts here.-->
-            <div>
-                <a href="#" target="_blank"><h2 class = "home">Home</h2></a>
+        <div class="article">
+          <q>The price of anything is the amount of life you exchange for it.</q>Henry David Thoreau.
+        </div>
+    <!-- Display Quiz section Starts -->
+    <section class="quizcard">
+        <div class="container">
+          <div class="row">
+            <!-- quiz card -->
+            <div class="col-lg-3 py-3">
+              <div class="card mb-3 mb-lg-0">
+                <div class="card-body">
+                    <h6 class="card-price text-center"><img src="quizicon2.svg"style="width:100px"></h6>
+                    
+                    <h5 class="card-title  text-uppercase text-center text-danger"> examination name</h5>
+                    <h3 class="card-title text-uppercase text-center text-success"> <span class="fa fa-trophy text-warning"></span> subjec  name</h3>
+                    <hr>
+                    <ul class="fa-ul">
+                      <li><span class="fa-li"><i class="fas fa-info-circle text-success" ></i></span>Total Questions: 10</li>
+                      <li><span class="fa-li"><i class="fas fa-hourglass-half text-warning"></i></span>Total Time: 2h 4m</li>
+                      <li><span class="fa-li"><i class="fas fa-book text-info"></i></span>Subject: Name</li>
+                      <li><span class="fa-li"><i class="fas fa-list text-danger"></i></span>Question Type: MCQ</li>
+                    </ul>
+                  <a href="#" class="btn btn-block btn-primary text-uppercase">start quiz</a>
+                </div>
+              </div>
             </div>
-            
-           <ul class = "navl">               
-                <li>
-                    <div class="dropdown">
-                        <button class="dropbtn">Exams</button>
-                        <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                        <a href="#">Link 4</a>
-                        </div>
-                    </div>
-               </li>
-                    </div>
-                        <li>                
-                            <div class="dropdown">
-                                <button class="dropbtn">Subjects</button>
-                                <div class="dropdown-content">
-                                    <a href="#">Computer Science</a>
-                                    <a href="#">GK</a>
-                                    <a href="#">History</a>
-                                    <a href="#">Maths</a>
-                                </div>
-                            </div>
-                        </li>
-                <li><a href="#" target="_blank">About</a></li>
-                <li><a href="#" target="_blank">Link1</a></li>
-                <li><a href="#" target="_blank">Link2</a></li>
-            </ul>
-        <div>
-            <a href="#" target="_blank"><h2 class = "home">Login</h2></a>
-        </div> 
-            <div class="burger">
-               <div class = "line1"></div>
-               <div class = "line2"></div>
-               <div class = "line3"></div>
-
+            <!-- quizcard -->
+             <!-- quiz card -->
+             <div class="col-lg-3 py-3">
+                <div class="card mb-3 mb-lg-0">
+                  <div class="card-body">
+                      <h6 class="card-price text-center"><img src="quizicon2.svg"style="width:100px"></h6>
+                      
+                      <h5 class="card-title  text-uppercase text-center text-danger"> examination name</h5>
+                      <h3 class="card-title text-uppercase text-center text-success"> <span class="fa fa-trophy text-warning"></span> subjec  name</h3>
+                      <hr>
+                      <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-info-circle text-success" ></i></span>Total Questions: 10</li>
+                        <li><span class="fa-li"><i class="fas fa-hourglass-half text-warning"></i></span>Total Time: 2h 4m</li>
+                        <li><span class="fa-li"><i class="fas fa-book text-info"></i></span>Subject: Name</li>
+                        <li><span class="fa-li"><i class="fas fa-list text-danger"></i></span>Question Type: MCQ</li>
+                      </ul>
+                    <a href="#" class="btn btn-block btn-primary text-uppercase">start quiz</a>
+                  </div>
+                </div>
+              </div>
+              <!-- quizcard -->
+               <!-- quiz card -->
+            <div class="col-lg-3 py-3">
+                <div class="card mb-3 mb-lg-0">
+                  <div class="card-body">
+                      <h6 class="card-price text-center"><img src="quizicon2.svg"style="width:100px"></h6>
+                      
+                      <h5 class="card-title  text-uppercase text-center text-danger"> examination name</h5>
+                    <h3 class="card-title text-uppercase text-center text-success"> <span class="fa fa-trophy text-warning"></span> subjec  name</h3>
+                    <hr>
+                      <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-info-circle text-success" ></i></span>Total Questions: 10</li>
+                        <li><span class="fa-li"><i class="fas fa-hourglass-half text-warning"></i></span>Total Time: 2h 4m</li>
+                        <li><span class="fa-li"><i class="fas fa-book text-info"></i></span>Subject: Name</li>
+                        <li><span class="fa-li"><i class="fas fa-list text-danger"></i></span>Question Type: MCQ</li>
+                      </ul>
+                    <a href="#" class="btn btn-block btn-primary text-uppercase">start quiz</a>
+                  </div>
+                </div>
+              </div>
+              <!-- quizcard -->
+               <!-- quiz card -->
+            <div class="col-lg-3 py-3">
+                <div class="card mb-3 mb-lg-0">
+                  <div class="card-body">
+                      <h6 class="card-icon text-center"><img src="quizicon2.svg"style="width:100px"></h6>
+                      
+                      <h5 class="card-title  text-uppercase text-center text-danger"> examination name</h5>
+                      <h3 class="card-title text-uppercase text-center text-success"> <span class="fa fa-trophy text-warning"></span> subjec  name</h3>
+                      <hr>
+                    <ul class="fa-ul">
+                      <li><span class="fa-li"><i class="fas fa-info-circle text-success" ></i></span>Total Questions: 10</li>
+                      <li><span class="fa-li"><i class="fas fa-hourglass-half text-warning"></i></span>Total Time: 2h 4m</li>
+                      <li><span class="fa-li"><i class="fas fa-book text-info"></i></span>Subject: Name</li>
+                      <li><span class="fa-li"><i class="fas fa-list text-danger"></i></span>Question Type: MCQ</li>
+                    </ul>
+                    <a href="#" class="btn btn-block btn-primary text-uppercase">Start quiz</a>
+                  </div>
+                </div>
+              </div>
+              <!-- quizcard -->
+               <!-- quiz card -->
+            <div class="col-lg-3 py-3">
+              <div class="card mb-3 mb-lg-0">
+                <div class="card-body">
+                    <h6 class="card-price text-center"><img src="quizicon2.svg"style="width:100px"></h6>
+                    
+                    <h5 class="card-title  text-uppercase text-center text-danger"> examination name</h5>
+                    <h3 class="card-title text-uppercase text-center text-success"> <span class="fa fa-trophy text-warning"></span> subjec  name</h3>
+                    <hr>
+                    <ul class="fa-ul">
+                      <li><span class="fa-li"><i class="fas fa-info-circle text-success" ></i></span>Total Questions: 10</li>
+                      <li><span class="fa-li"><i class="fas fa-hourglass-half text-warning"></i></span>Total Time: 2h 4m</li>
+                      <li><span class="fa-li"><i class="fas fa-book text-info"></i></span>Subject: Name</li>
+                      <li><span class="fa-li"><i class="fas fa-list text-danger"></i></span>Question Type: MCQ</li>
+                    </ul>
+                  <a href="#" class="btn btn-block btn-primary text-uppercase">start quiz</a>
+                </div>
+              </div>
             </div>
-        </nav><!--Navbar ends here.-->                       
-
-        <card> <!-- Display Quiz section Starts -->
-            <div class="quizcard">
-                <div class="quizcardheader">
-                    <b>Quiz Title</b>
+            <!-- quizcard -->
+             <!-- quiz card -->
+             <div class="col-lg-3 py-3">
+                <div class="card mb-3 mb-lg-0">
+                  <div class="card-body">
+                      <h6 class="card-price text-center"><img src="quizicon2.svg"style="width:100px"></h6>
+                      
+                      <h5 class="card-title  text-uppercase text-center text-danger"> examination name</h5>
+                      <h3 class="card-title text-uppercase text-center text-success"> <span class="fa fa-trophy text-warning"></span> subjec  name</h3>
+                      <hr>
+                      <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-info-circle text-success" ></i></span>Total Questions: 10</li>
+                        <li><span class="fa-li"><i class="fas fa-hourglass-half text-warning"></i></span>Total Time: 2h 4m</li>
+                        <li><span class="fa-li"><i class="fas fa-book text-info"></i></span>Subject: Name</li>
+                        <li><span class="fa-li"><i class="fas fa-list text-danger"></i></span>Question Type: MCQ</li>
+                      </ul>
+                    <a href="#" class="btn btn-block btn-primary text-uppercase">start quiz</a>
+                  </div>
                 </div>
-
-                <div class="quizcardbody">
-                    <div>
-                        <p><span class="fa fa-info-circle"></span> Quiz description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ex animi accusantium </p>
-                    </div>
-                    <div>
-                        <span class="fa fa-hourglass-start"></span>
-                            Start Time
-                    </div>
-                    <div>
-                        <span class="fa fa-hourglass-end"></span>
-                            End Time
-                    </div>
+              </div>
+              <!-- quizcard -->
+               <!-- quiz card -->
+            <div class="col-lg-3 py-3">
+                <div class="card mb-3 mb-lg-0">
+                  <div class="card-body">
+                      <h6 class="card-price text-center"><img src="quizicon2.svg"style="width:100px"></h6>
+                      
+                      <h5 class="card-title  text-uppercase text-center text-danger"> examination name</h5>
+                    <h3 class="card-title text-uppercase text-center text-success"> <span class="fa fa-trophy text-warning"></span> subjec  name</h3>
+                    <hr>
+                      <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-info-circle text-success" ></i></span>Total Questions: 10</li>
+                        <li><span class="fa-li"><i class="fas fa-hourglass-half text-warning"></i></span>Total Time: 2h 4m</li>
+                        <li><span class="fa-li"><i class="fas fa-book text-info"></i></span>Subject: Name</li>
+                        <li><span class="fa-li"><i class="fas fa-list text-danger"></i></span>Question Type: MCQ</li>
+                      </ul>
+                    <a href="#" class="btn btn-block btn-primary text-uppercase">start quiz</a>
+                  </div>
                 </div>
-
-                <div class="quizcardfooter">
-                    <div>
-                        <span class="fa fa-hourglass-half"></span>
-                            <b><a href="#">start Quiz</a></b>
-                    </div>
+              </div>
+              <!-- quizcard -->
+               <!-- quiz card -->
+            <div class="col-lg-3 py-3">
+                <div class="card mb-3 mb-lg-0">
+                  <div class="card-body">
+                      <h6 class="card-icon text-center"><img src="quizicon2.svg"style="width:100px"></h6>
+                      
+                      <h5 class="card-title  text-uppercase text-center text-danger"> examination name</h5>
+                      <h3 class="card-title text-uppercase text-center text-success"> <span class="fa fa-trophy text-warning"></span> subjec  name</h3>
+                      <hr>
+                    <ul class="fa-ul">
+                      <li><span class="fa-li"><i class="fas fa-info-circle text-success" ></i></span>Total Questions: 10</li>
+                      <li><span class="fa-li"><i class="fas fa-hourglass-half text-warning"></i></span>Total Time: 2h 4m</li>
+                      <li><span class="fa-li"><i class="fas fa-book text-info"></i></span>Subject: Name</li>
+                      <li><span class="fa-li"><i class="fas fa-list text-danger"></i></span>Question Type: MCQ</li>
+                    </ul>
+                    <a href="#" class="btn btn-block btn-primary text-uppercase">Start quiz</a>
+                  </div>
                 </div>
+              </div>
+              <!-- quizcard -->
+           
+          </div>
+        </div>
+      </section>
+    <!-- Display Quiz section Ends-->
+
+
+
+     <!-- Footer Starts here-->
+    <!-- Footer -->
+  <footer class="page-footer font-small blue">
+    <footer class="mt-5">
+      <div class="container-fluid bg-faded mt-5">
+        <div class="container">
+          <div class="row py-3">
+    
+            <!-- footer column 2 start -->
+            <div class="col-lg-6">
+              <!-- row start -->
+              <div class="row py-2">
+                <div class="col-sm-3 hidden-md-down">
+                  <a class="circle bg-info" href="#">
+                    <i class="fa fa-2x fa-fw fa-address-card" aria-hidden="true "></i>
+                  </a>
+                </div>
+                <div class="col-sm-9">
+                  <h4>About</h4>
+                  <p>We provide an Interactive Quizzing platform for the aspirants of J&K for various Examinations. Our aim is to help the students practice and excel the examinations.</p>
+                </div>
+              </div>
+              <!-- row end -->
+              <!-- row start -->
+    
+              <div class="row py-2">
+                <div class="col-sm-3 hidden-md-down">
+                  <a class="circle bg-info" href="#">
+                    <i class="fa fa-2x fa-fw fa-laptop" aria-hidden="true "></i>
+                  </a>
+                </div>
+                <div class="col-sm-9">
+                  <h4>Contact</h4>
+                  <a href="jkexamsquest@gmail.com">Email</a>
+                  <br>
+                  <a href="#">Phone</a>
+                </div>
+              </div>
+              <!-- row end -->
             </div>
-        </card> <!-- Display Quiz section Ends-->
-        <card> <!-- Display Quiz section Starts -->
-            <div class="quizcard">
-                <div class="quizcardheader">
-                    <b>Quiz Title</b>
+            <!-- footer column 2 end -->
+            <!-- footer column 3 start -->
+            <div class="col-lg-6">
+              <!-- row starting  -->
+    
+              <div class="row py-2">
+                <div class="col-sm-3 hidden-md-down">
+                  <a class="circle bg-info" href="# ">
+                    <i class="fa fa-2x fa-fw fa-link" aria-hidden="true "></i>
+                  </a>
                 </div>
-
-                <div class="quizcardbody">
-                    <div>
-                        <p><span class="fa fa-info-circle"></span> Quiz description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ex animi accusantium </p>
-                    </div>
-                    <div>
-                        <span class="fa fa-hourglass-start"></span>
-                            Start Time
-                    </div>
-                    <div>
-                        <span class="fa fa-hourglass-end"></span>
-                            End Time
-                    </div>
+                <div class="col-sm-9">
+                  <h4>Quick Links</h4>
+                  <a href="#">My Quizzes</a>
+                  <br>
+                  <a href="#top">Top</a>
+                  <br>
+                  <a href= "#">Something else</a>
+    
                 </div>
-
-                <div class="quizcardfooter">
-                    <div>
-                        <span class="fa fa-hourglass-half"></span>
-                            <b><a href="#">start Quiz</a></b>
-                    </div>
+              </div>
+              <!-- row ended -->
+              <!-- row starting  -->
+              <div class="row py-2">
+                <div class="col-sm-3 hidden-md-down">
+                  <a class="circle bg-info">
+                    <i class="fa fa-2x fa-fw fa-info" aria-hidden="true "></i>
+                  </a>
                 </div>
+                <div class="col-sm-9">
+                  <h4>Feedback</h4>
+                  <form action = "" method="get">
+                      <div class="form-group">
+                          <label for="textarea"></label>
+                          <textarea id="textarea" class="form-control" name="feedback" placeholder="Give us your feedback" rows="1"></textarea>
+                      </div>
+                      <button class="btn btn-info" type="submit">Submit</button>
+                  </form>
+                </div>
+              </div>
+              <!-- row ended -->
             </div>
-        </card> <!-- Display Quiz section Ends-->
-        <card> <!-- Display Quiz section Starts -->
-            <div class="quizcard">
-                <div class="quizcardheader">
-                    <b>Quiz Title</b>
-                </div>
+            <!-- footer column 3 end -->
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row py-3">
+                <!-- Copyright -->
+              <div style = "margin: auto;"><span  id = "copyright"> © 2020 
+                  <a href="https://jkexamsquest.com/"> JKEXAMSQUEST</a></span>
+              </div>
+                  <!-- Copyright -->
+                  </div>
+      </div>
+    
 
-                <div class="quizcardbody">
-                    <div>
-                        <p><span class="fa fa-info-circle"></span> Quiz description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ex animi accusantium </p>
-                    </div>
-                    <div>
-                        <span class="fa fa-hourglass-start"></span>
-                            Start Time
-                    </div>
-                    <div>
-                        <span class="fa fa-hourglass-end"></span>
-                            End Time
-                    </div>
-                </div>
+        </footer>
+    </footer>
 
-                <div class="quizcardfooter">
-                    <div>
-                        <span class="fa fa-hourglass-half"></span>
-                            <b><a href="#">start Quiz</a></b>
-                    </div>
-                </div>
-            </div>
-        </card> <!-- Display Quiz section Ends-->
+
+    <!--Footer Ends here-->
+
 
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <script src="index.js"> </script>
     
