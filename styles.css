@@ -204,8 +204,8 @@ a{
   .navl{
     position: absolute;
     right: 0px;
-    min-height: 52vh;
-    top: 48vh;
+    min-height: 60vh;
+    top: 49vh;
     background-color: #5d4959;
     display: flex;
     flex-direction: column;
